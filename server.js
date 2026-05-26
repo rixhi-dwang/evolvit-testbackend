@@ -6,7 +6,11 @@ const connectDB = require('./config/db');
 const app = express();
 
 app.use(cors({
-  origin: 'https://evolvit-frontend.vercel.app/admin/login',
+  origin: [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://evol-vit-website.vercel.app',
+  ],
   credentials: true,
 }));
 app.use(express.json());
