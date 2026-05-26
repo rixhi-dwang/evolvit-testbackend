@@ -10,6 +10,7 @@ app.use(cors({
     'http://localhost:3000',
     'http://localhost:3001',
     'https://evol-vit-website.vercel.app',
+    'https://evolvit-frontend.vercel.app',  
   ],
   credentials: true,
 }));
