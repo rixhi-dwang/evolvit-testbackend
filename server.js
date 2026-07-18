@@ -11,6 +11,10 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
   'https://evolvit-frontend.vercel.app',
+  'https://evolvit-frontend.vercel.app/events',
+  'https://evolvit-frontend.vercel.app',
+  'https://evolvit-frontend.vercel.app',
+  'https://evolvit-frontend.vercel.app',
 ];
 
 app.use(cors({
