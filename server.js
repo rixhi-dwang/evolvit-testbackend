@@ -12,6 +12,7 @@ const allowedOrigins = [
   'http://localhost:3001',
   'https://evol-vit-website.vercel.app',
   'https://evolvit-frontend.vercel.app',
+  'https://evolvit-testbackend.onrender.com',
 ];
 
 app.use(cors({
